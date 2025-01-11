@@ -7,6 +7,7 @@
 
 body{
     font-family: Fira Sans;
+    background-color: rgb(245, 245, 245)
 }
 
 
@@ -74,13 +75,194 @@ nav{
 .common-btn{
     border-radius: 5px;
     background: rgb(0, 106, 80);
-    padding: 17px 34px 17px 34px;
+    padding: 14px 28px 14px 28px;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 16px;
     border: none;
+}
+
+main section{
+    margin: 80px 0;
+}
+.pillars-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+.pillars-box{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+}
+.lefty-heading{
+    color: rgb(14, 14, 14);
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin: 20px 0;
+}
+.subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 10px 0;
+}
+.short-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.vision-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+#first{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#second{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+
+    background:rgb(198, 228, 214);
+}
+#third{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+
+    background: rgb(247, 235, 207);
+}
+.pillars-btn{
+    border-radius: 5px;
+    /* background: rgb(0, 106, 80); */
+    padding: 14px 28px 14px 28px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border: none;
+    margin-top: 10px;
+}
+
+#first-btn{
+    background: rgb(84, 144, 245);
+}
+#second-btn{
+    background: rgb(9, 161, 92);
+}
+#third-btn{
+    background: rgb(255, 194, 57);
+}
+#vision-yunus{
+    margin: 50px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    padding: 30px 16px 30px 16px;
+   
+    background: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    
+
+    
+   
+}
+.layer{
+    background: rgb(255, 255, 255);
+}
+#vision-yunus p{
+    padding: ;
+    
+}
+.table-head{
+    display: flex;
+    justify-content: space-between;
+}
+#bgcolor{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+.table-box{
+    padding: 32px;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+}
+table{
+    width: 100%;
+}
+table, td{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    background: rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+table tr td{
+    padding: 20px;
+}
+select{
+    text-align: center;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+
+    background: rgba(9, 161, 92, 0.15);
+}
+.table-box>h3{
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.news-content{
+    margin: 20px 0;
+    padding: 45px;
+    display: flex;
+    gap: 32px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+.news-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.newsp{
+    margin: 20px 0;
 }
 
 
