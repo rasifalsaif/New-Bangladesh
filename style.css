@@ -97,7 +97,7 @@ main section{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
-
+    width: 25%;
     background: rgb(255, 255, 255);
 }
 .lefty-heading{
