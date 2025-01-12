@@ -131,6 +131,9 @@ main section{
     justify-content: space-between;
     gap: 24px;
 }
+.vision-box{
+    width: 33.333333333%;
+}
 #first{
     padding: 24px;
     box-sizing: border-box;
